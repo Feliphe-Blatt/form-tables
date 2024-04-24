@@ -27,23 +27,8 @@ function escopo (){
 
         // selecionaGenero: Confere qual gênero foi escolhido para enviar na resposta do formulário
         function selecionaGenero(){
-            const gen1 = document.getElementById('gen1');
-            const gen2 = document.getElementById('gen2');
-            const genx = document.getElementById('genx');
-
-            let temporario = '';
-            if (gen1.checked){
-                temporario = 'Masculino';
-            }
-            else if (gen2.checked) {
-                temporario = 'Feminino';
-            }
-            else if (genx.checked){
-                temporario = 'Outr@';
-            }else {
-                temporario = 'x';
-            }
-            return temporario;
+            
+            return formulario.genero.value;
         }
 
         // addFormulario: Utilizado para gravar os resultados na lista completa de envios (console.log)
