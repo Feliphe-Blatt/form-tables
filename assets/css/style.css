@@ -95,9 +95,9 @@ table tfoot {
 }
 #formulario input {
     font-size: 1.3vmax;
+    transition: all 300ms ease-in-out;
 }
 #formulario input:hover {
-    transition: all 300ms ease-in-out;
     cursor: pointer;
     text-shadow: 0 0 1vw rgba(0, 0, 0, 0.5);
 }
